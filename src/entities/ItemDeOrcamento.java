@@ -6,17 +6,17 @@ public class ItemDeOrcamento {
 
     public ItemDeOrcamento() {}
 
-    public ItemDeOrcamento (Produto produto ,int qualidade){
+    public ItemDeOrcamento (Produto produto ,int quantidade){
         p = produto;
-        this.quantidade = qualidade;
+        this.quantidade = quantidade;
     }
 
-    public int getQualidade() {
+    public int getQuantidade() {
         return quantidade;
     }
 
-    public void setQualidade(int qualidade) {
-        this.quantidade = qualidade;
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
     }
 
 }

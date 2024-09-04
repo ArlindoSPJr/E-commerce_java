@@ -20,10 +20,6 @@ public class Pagamento {
         this.valorPgto = valorPgto;
     }
 
-    public boolean isConfirmacao() {
-        return confirmacao;
-    }
-
     public double getValorPgto() {
         return valorPgto;
     }

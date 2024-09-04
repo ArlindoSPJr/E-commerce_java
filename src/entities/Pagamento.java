@@ -7,8 +7,7 @@ public class Pagamento {
 
     public Pagamento() {}
 
-    public Pagamento(boolean confirmacao, double valorPgto, MeioDePgto meioDePagto) {
-        this.confirmacao = confirmacao;
+    public Pagamento(double valorPgto, MeioDePgto meioDePagto) {
         this.valorPgto = valorPgto;
         this.meioDePagto = meioDePagto;
     }

@@ -6,7 +6,7 @@ public class Orcamento {
     private int codOrcamento;
     private double valorTotal;
     private ArrayList<ItemDeOrcamento> itemDeOrcamento = new ArrayList<>();
-    public ArrayList<Pagamento> pagamentos = new ArrayList<>();
+    private ArrayList<Pagamento> pagamentos = new ArrayList<>();
 
     public Orcamento() {
     }
@@ -30,6 +30,14 @@ public class Orcamento {
 
     public void setValorTotal(double valorTotal) {
         this.valorTotal = valorTotal;
+    }
+
+    public ArrayList<Pagamento> getPagamentos() {
+        return pagamentos;
+    }
+
+    public void setPagamentos(ArrayList<Pagamento> pagamentos) {
+        this.pagamentos = pagamentos;
     }
 
     public boolean adicionarItem(ItemDeOrcamento item) {

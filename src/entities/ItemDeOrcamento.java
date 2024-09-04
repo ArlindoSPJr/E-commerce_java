@@ -1,22 +1,22 @@
 package entities;
 
 public class ItemDeOrcamento {
-    private int qualidade;
+    private int quantidade;
     private Produto p;
 
     public ItemDeOrcamento() {}
 
     public ItemDeOrcamento (Produto produto ,int qualidade){
         p = produto;
-        this.qualidade = qualidade;
+        this.quantidade = qualidade;
     }
 
     public int getQualidade() {
-        return qualidade;
+        return quantidade;
     }
 
     public void setQualidade(int qualidade) {
-        this.qualidade = qualidade;
+        this.quantidade = qualidade;
     }
 
 }
